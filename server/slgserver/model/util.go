@@ -13,4 +13,4 @@ var GetMaxDurable func(cid int) int
 var GetCityLv func(cid int) int8
 var MapResTypeLevel func(x, y int) (bool, int8, int8)
 
-var ServerId = 0
+var ServerId = 1
