@@ -2,7 +2,6 @@ package static_conf
 
 import (
 	"encoding/json"
-	"fmt"
 	"go.uber.org/zap"
 	"io/ioutil"
 	"os"
@@ -102,5 +101,5 @@ func (this *basic) Load() {
 
 	json.Unmarshal(jdata, this)
 
-	fmt.Println(this)
+	//fmt.Println(this)
 }
